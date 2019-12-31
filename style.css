@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'Black Ops One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Black Ops One'), local('BlackOpsOne-Regular'), url(blackops.woff) format('woff');
+}
+
+.title-div-ontime {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  font-family: "Garamond";
+  top: 5%;
+}
+
+.title-div-kids {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  font-family: "Comic Sans MS";
+  top: 5%;
+}
+
+.title-div-general {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  font-family: "Verdana";
+  top: 5%;
+}
+
+#number-div {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  top: 25%;
+}
+
+.number-ontime {
+  display: inline-block;
+  font-family: "Garamond";
+  font-size: 150px;
+  width: 400px;
+  text-align: center;
+  border: 1px solid;
+  cursor: pointer;
+  background: #fdb515;
+  color: #fff;
+}
+
+.number-kids {
+  display: inline-block;
+  font-family: "Comic Sans MS";
+  font-size: 150px;
+  width: 400px;
+  text-align: center;
+  border: 1px solid;
+  cursor: pointer;
+  background: #85cd85;
+  color: #fff;
+}
+
+.number-general {
+  display: inline-block;
+  font-family: "Verdana";
+  font-size: 150px;
+  width: 400px;
+  text-align: center;
+  border: 1px solid;
+  cursor: pointer;
+  background: #1eadff;
+  color: #fff;
+}
+
+#button-div {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  top: 60%;
+}
+
+#button {
+  display: inline-block;
+  font-size: 50px;
+  background: #bbb;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.button-ontime {
+	font-family: "Garamond";
+}
+
+.button-kids {
+	font-family: "Comic Sans MS";
+}
+
+.button-general {
+	font-family: "Verdana";
+}
